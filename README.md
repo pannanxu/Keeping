@@ -8,3 +8,5 @@ Kepping模板是由本人移植Helo的一款模板
 然后在后台-->外观-->启用Kepping模板即可
 # 原文链接
 https://www.ucuser.cn/note/12.html
+
+https://www.ucuser.cn/usr/uploads/2019/08/1967889225.png
