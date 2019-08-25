@@ -7,7 +7,7 @@
 
 全站pjax无刷新：让你的博客享受切换页面也不会停止音乐的快感
 # Kepping模板安装与说明
-Kepping模板是由本人移植Helo的一款模板
+Kepping模板是由本人移植He lo的一款模板
 # 安装说明
 把安装包解压在/usr/themes/
 然后在后台-->外观-->启用Kepping模板即可
