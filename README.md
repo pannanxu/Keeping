@@ -7,11 +7,11 @@
 全局夜晚模式：全然不同的新风格，优雅且让眼睛更舒适
 
 全站pjax无刷新：让你的博客享受切换页面也不会停止音乐的快感
-# Kepping模板安装与说明
+# Keeping模板安装与说明
 Kepping模板是由本人移植He lo的一款模板
 # 安装说明
 把安装包解压在/usr/themes/
-然后在后台-->外观-->启用Kepping模板即可
+然后在后台-->外观-->启用Keeping模板即可
 # 原文链接
 https://www.ucuser.cn/note/12.html
 
