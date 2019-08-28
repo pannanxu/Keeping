@@ -1,4 +1,5 @@
 # Keeping
+![Image text]( https://www.ucuser.cn/usr/uploads/2019/08/1967889225.png)
 每天保持一个良好的心态微笑面对一切，哪怕这是最后一秒。
 
 昼夜双版设计，站长可以根据喜好，开启白天或者夜晚模式。也可以把选择权交给网站浏览者自己选择。十分贴心和好用。目前手机和电脑系统纷纷都支持夜晚阅读模式，这款主题也恰好完美匹配支持。
@@ -14,4 +15,4 @@ Kepping模板是由本人移植He lo的一款模板
 # 原文链接
 https://www.ucuser.cn/note/12.html
 
-https://www.ucuser.cn/usr/uploads/2019/08/1967889225.png
+
