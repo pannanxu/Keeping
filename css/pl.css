@@ -1,0 +1,322 @@
+
+.article,.page {
+	width: 100%;
+	min-height: calc(100vh);
+	padding: 80px 20px 0;
+	word-break: break-all;
+}
+.page-head-meta {
+	text-align: center;
+}
+.respond input:focus,.respond textarea:focus{
+    outline:none;
+}
+.breadcrumb,.breadcrumb a,.baidu-record,.baidu-record a,.article-meta,.article-meta a,.page-title,.page-meta {
+	color: #fff;
+}
+.breadcrumb,.baidu-record,.article-meta,.page-meta,.tags {
+	font-family: icomoon;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.page-title {
+	font-size: 40px;
+}
+.baidu-record {
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: #29d;
+	transition: all .3s;
+}
+.baidu-record:hover {
+	transform: scale(.95);
+}
+.article-meta {
+	line-height: 2em;
+}
+.tags {
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #fff;
+}
+.tags a {
+	display: inline-block;
+	font-weight: 700;
+	padding: 5px 15px;
+	margin: 0 5px 5px;
+	border-radius: 25px;
+	transition: all .3s;
+}
+.tags a:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 0 5px;
+}
+.tags a:before {
+	content: '\e9db';
+}
+.tag-color1 {
+	background-color: rgba(255, 189, 41, .2);
+	color: rgb(255, 189, 41);
+}
+.tag-color2 {
+	background-color: rgba(35, 171, 251, .2);
+	color: rgb(35, 171, 251);
+}
+.tag-color3 {
+	background-color: rgba(251, 35, 185, .2);
+	color: rgb(251, 35, 185);
+}
+.tag-color4 {
+	background-color: rgba(255, 112, 112, .2);
+	color: rgb(255, 112, 112);
+}
+.tag-color5 {
+	background-color: rgba(44, 204, 204, .2);
+	color: rgb(44, 204, 204);
+}
+.tag-color6 {
+	background-color: rgba(217, 65, 255, .2);
+	color: rgb(217, 65, 255);
+}
+.tag-color7 {
+	background-color: rgba(255, 64, 73, .2);
+	color: rgb(255, 64, 73);
+}
+.tag-color8 {
+	background-color: rgba(28, 137, 249, .2);
+	color: rgb(28, 137, 249);
+}
+.tag-color9 {
+	background-color: rgba(81, 206, 40, .2);
+	color: rgb(81, 206, 40);
+}
+.tag-color10 {
+	background-color: rgba(239, 78, 78, .2);
+	color: rgb(239, 78, 78);
+}
+.article-content,.page-content {
+	font-size: 14px;
+	color: #fff;
+	margin: 50px 0;
+}
+.appreciate-btn {
+	height: 30px;
+	width: 80px;
+	line-height: 30px;
+	text-align: center;
+	color: #ff4d4d;
+	font-family: icomoon;
+	font-size: 12px;
+	font-weight: 700;
+	margin: 15px auto;
+	border-radius: 5px 15px;
+	background-color: #ffdddd;
+	cursor: url(../mouse/link.cur), pointer;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	transition: all .2s;
+}
+.appreciate-btn:hover {
+	border-radius: 15px 5px;
+}
+.article-copyright-info {
+	font-size: 12px;
+	line-height: 1.5em;
+	padding: 20px;
+	color: #000;
+	background-color: rgba(255, 255, 255, .5);
+	border-left: 2px solid #008fe4;
+	border-radius: 5px;
+}
+.article-copyright-info a {
+	color: #b10026;
+	position: relative;
+}
+.article-copyright-info a:after {
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #000;
+	transition: all .2s;
+}
+.article-copyright-info a:hover:after {
+	width: 100%;
+}
+
+/*评论部分样式*/
+.comment ol{
+    list-style: none;
+             margin: 0px;
+    padding: 0px;
+}
+#comment-form {
+	margin: 50px 0;
+}
+.comment-form-all {
+	width: 100%;
+	color: #fff;
+	font-size: 12px;
+	overflow: hidden;
+}
+.comment-form-all a {
+	color: #fff;
+}
+.comment-form-meta {
+	text-align: center;
+}
+.comment-form-meta input {
+	width: 30%;
+	color: #000;
+	margin: 5px 0;
+	padding: 5px 0 5px 15px;
+	border: 1px dashed #bbb;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0);
+	transition: all .3s linear;
+}
+.comment-form-meta input::-webkit-input-placeholder {
+	color: #fff;
+}
+.comment-form-meta input:focus {
+	border-bottom: 1px dashed #0095ff;
+}
+.comment-form-all .textarea {
+	width: 100%;
+	resize: none;
+	border: 1px dashed #bbb;
+	padding: 15px;
+	margin: 5px 0;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, .7);
+	box-sizing: border-box;
+}
+.comment-form-all .textarea::-webkit-input-placeholder {
+	color: #0e0e0e;
+}
+.submit-box {
+	overflow: hidden;
+}
+.submit-box input,.submit-box span {
+	float: right;
+	margin-right: 10px;
+	height: 30px;
+	line-height: 30px;
+}
+.submit-box input {
+	width: 50px;
+	border: none;
+	border-bottom: 1px dashed #fff;
+	padding-left: 10px;
+	color: #fff;
+	background-color: rgba(000, 000, 000, .2);
+}
+.submit-box .submit {
+	font-family: icomoon;
+	float: right;
+	height: 30px;
+	padding: 0 15px;
+	color: #000;
+	background-color: rgba(000, 000, 000, .2);
+	border-radius: 0 15px;
+	border: none;
+	cursor: url(../mouse/link.cur), pointer;
+	transition: all .3s;
+}
+.submit-box .submit:hover {
+	color: #ffeb3b;
+	border-radius: 15px 0;
+}
+.comment>h3,#comments>h3 {
+	color: #fff;
+	font-size: 14px;
+	margin: 50px 0;
+}
+.comment-list,.comment-list a {
+	color: #fff;
+}
+.comment-parent {
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, .5);
+	transition: all .2s;
+}
+.comment-parent:hover {
+	background-color: rgba(255, 255, 255, .4);
+}
+.comment-author {
+	font-size: 12px;
+	margin: 15px 0;
+	overflow: hidden;
+}
+.comment-author .avatar {
+	float: left;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+.awaiting {
+	color: #fa0237;
+}
+.comment-body>div>p {
+	font-size: 12px;
+	margin-left: 50px;
+	line-height: 30px;
+}
+.comment-by-author>div>.comment-author>a {
+	color: #ff8d00;
+	font-weight: 700;
+}
+.comment-by-author>div>.comment-author>a:after {
+	content: "站长";
+	color: #fff;
+	border-radius: 5px;
+	padding: 0 5px;
+	margin-left: 5px;
+	background-color: #000;
+}
+.comment-reply,.cancel-comment-reply {
+	float: right;
+	font-size: 12px;
+}
+.comment-reply a,.cancel-comment-reply a {
+	font-weight: 700;
+	transition: all .3s;
+}
+.comment-reply a:hover,.cancel-comment-reply a:hover {
+	color: #FF9800;
+}
+.cancel-comment-reply {
+	margin-bottom: 10px;
+}
+.comment-children {
+	margin-left: 50px;
+}
+.comment-page {
+	padding: 50px 0;
+}
+
+.comment-parent:hover{
+    background-color: rgba(000,000,000,.3);
+}
+.dark-theme .comment-form-meta input {
+    color: #ddd;
+    background-color: rgba(255, 255, 255, 0);
+}
+.dark-theme .comment-form-all .textarea{
+    border: none;
+}
+
+.dark-theme .comment-parent a,
+.dark-theme .comment-parent p,
+.dark-theme .comment-parent,
+.dark-theme .comment-parent span{
+    color: #fff;
+}
+.comment-parent a,
+.comment-parent p,
+.comment-parent,
+.comment-parent span{
+    color: #000;
+}
